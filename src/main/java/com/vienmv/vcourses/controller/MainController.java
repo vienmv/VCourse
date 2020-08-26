@@ -1,4 +1,4 @@
-package com.vienmv.vfarm.controller;
+package com.vienmv.vcourses.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -41,10 +41,17 @@ public class MainController {
 		return "client/blog";
 	}
 	/* Admin */
-	@RequestMapping(value = "/admin", method = RequestMethod.GET)
+	@RequestMapping(value = "/admin/index", method = RequestMethod.GET)
 	public String dashboard(HttpServletRequest request) {
 		return "admin/index";
 	}
-	
+	@RequestMapping(value = "/admin/index-1", method = RequestMethod.GET)
+	public String dashboardV2(HttpServletRequest request) {
+		return "admin/index-1";
+	}
+	@RequestMapping(value = "/admin/index-2", method = RequestMethod.GET)
+	public String dashboardV3(HttpServletRequest request) {
+		return "admin/index-2";
+	}
 	
 }

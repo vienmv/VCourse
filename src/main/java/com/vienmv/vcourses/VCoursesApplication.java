@@ -1,12 +1,12 @@
-package com.vienmv.vfarm;
+package com.vienmv.vcourses;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VfarmApplication {
+public class VCoursesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VfarmApplication.class, args);
+		SpringApplication.run(VCoursesApplication.class, args);
 	}
 }

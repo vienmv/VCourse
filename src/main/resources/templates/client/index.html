@@ -71,7 +71,7 @@
         <!-- ? services-area -->
         <th:block th:insert="~{client/fragments/service :: service}"></th:block>
         <!-- Courses area start -->
-       <th:block th:insert="~{client/fragments/course_top :: course_top}"></th:block>
+       <th:block th:insert="~{client/fragments/courses_top :: courses_top}"></th:block>
         <!-- Courses area End -->
         <!--? About Area-1 Start -->
         <section class="about-area1 fix pt-10">
@@ -119,7 +119,7 @@
                         <img th:src="@{client/assets/img/gallery/about3.png}" alt="">
 
                         <div class="video-icon" >
-                            <a class="popup-video btn-icon" th:href="@{https://www.youtube.com/watch?v=up68UAfH0d0}"><i class="fas fa-play"></i></a>
+                            <a class="popup-video btn-icon" th:href="@{https://www.youtube.com/watch?v=g9Dp98FBcr8}"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -127,122 +127,8 @@
         </section>
         <!-- About Area End -->
         <!--? top subjects Area Start -->
-        <div class="topic-area section-padding40">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-8">
-                        <div class="section-tittle text-center mb-55">
-                            <h2>Explore top subjects</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic1.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img}">
-                                <img th:src="@{client/assets/img/gallery/topic2.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic3.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic4.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic5.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic6.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic7.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-topic text-center mb-30">
-                            <div class="topic-img">
-                                <img th:src="@{client/assets/img/gallery/topic8.png}" alt="}">
-                                <div class="topic-content-box">
-                                    <div class="topic-content">
-                                        <h3><a th:href="@{#}">Programing</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-12}">
-                        <div class="section-tittle text-center mt-20">
-                            <a th:href="@{courses.html}" class="border-btn">View More Subjects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        		<th:block th:insert="~{client/fragments/subject_top :: subject_top}"></th:block>
+        
         <!-- top subjects End -->
         <!--? About Area-3 Start -->
         <section class="about-area3 fix">
@@ -257,7 +143,8 @@
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-20">
                         <div class="front-text">
-                            <h2 class="">Learner outcomes on courses you will take</h2>
+                            <h2 class="">VCourse - Sự lựa chọn cho mọi lứa tuổi, kỹ năng
+								và trình độ</h2>
                         </div>
                     </div>
                     <div class="single-features">
@@ -265,7 +152,7 @@
                             <img th:src="@{client/assets/img/icon/right-icon.svg}" alt="}">
                         </div>
                         <div class="features-caption">
-                            <p>Techniques to engage effectively with vulnerable children and young people.</p>
+                            <p>Trải nghiệm học tập không giới hạn.</p>
                         </div>
                     </div>
                     <div class="single-features">
@@ -273,8 +160,7 @@
                             <img th:src="@{client/assets/img/icon/right-icon.svg}" alt="">
                         </div>
                         <div class="features-caption">
-                            <p>Join millions of people from around the world
-                            learning together.</p>
+                            <p>Mua một lần học trọn đời.</p>
                         </div>
                     </div>
                     <div class="single-features">
@@ -282,8 +168,15 @@
                             <img th:src="@{client/assets/img/icon/right-icon.svg}" alt="">
                         </div>
                         <div class="features-caption">
-                            <p>Join millions of people from around the world learning together.
-                            Online learning is as easy and natural.</p>
+                            <p>Dễ học, dễ ứng dụng.</p>
+                        </div>
+                    </div>
+                        <div class="single-features">
+                        <div class="features-icon">
+                            <img th:src="@{client/assets/img/icon/right-icon.svg}" alt="">
+                        </div>
+                        <div class="features-caption">
+                            <p>Học xong đi làm luôn.</p>
                         </div>
                     </div>
                 </div>
@@ -356,19 +249,16 @@
                 <div class="right-content2">
                     <!-- img -->
                     <div class="right-img">
-                        <img th:src="@{client/assets/img/gallery/about2.png}" alt="">
+                        <img th:src="@{https://nhg.vn/sites/nhg.vn/files/2020-02/84000146_2478931795569990_8855002793639936_o.jpg}" alt="">
                     </div>
                 </div>
                 <div class="left-content2">
                     <!-- section tittle -->
                     <div class="section-tittle section-tittle2 mb-20">
                         <div class="front-text">
-                            <h2 class="}">Take the next step
-                                toward your personal
-                                and professional goals
-                            with us.</h2>
-                            <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-                            <a th:href="@{#}" class="btn">Join now for Free</a>
+                            <h2 class="}">VCourse - Sự lựa chọn cho mọi lứa tuổi, kỹ năng và trình độ</h2>
+                            <p>VCourse tự hào là "siêu thị" các khóa học trực tuyến ngắn hạn lớn nhất Đông Nam Á với hàng nghìn khóa học thuộc mọi lĩnh vực, đội ngũ giảng viên chuyên nghiệp, giàu kinh nghiệm và mạng lưới học viên rộng khắp cả nước. VCourse - nơi bạn học mọi kĩ năng làm chủ tương lai.</p>
+                            <a th:href="@{register}" class="btn">Đăng kí ngay</a>
                         </div>
                     </div>
                 </div>

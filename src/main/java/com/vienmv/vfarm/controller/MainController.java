@@ -28,4 +28,23 @@ public class MainController {
 	public String course(HttpServletRequest request) {
 		return "client/courses";
 	}
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String about(HttpServletRequest request) {
+		return "client/about";
+	}
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String contact(HttpServletRequest request) {
+		return "client/contact";
+	}
+	@RequestMapping(value = "/blog", method = RequestMethod.GET)
+	public String blog(HttpServletRequest request) {
+		return "client/blog";
+	}
+	/* Admin */
+	@RequestMapping(value = "/admin", method = RequestMethod.GET)
+	public String dashboard(HttpServletRequest request) {
+		return "admin/index";
+	}
+	
+	
 }
